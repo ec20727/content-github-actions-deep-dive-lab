@@ -30,7 +30,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
+          aws-region: global
         env:
           BUCKET_NAME: <cfst-3457-d36c455cadba87ec1594ff69e-nonprodbucket-xksutjvl5j7z>
       
